@@ -12,9 +12,11 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
+//Add element at end and doesnt alter the original array
 function addElementToEndOfArray(array,element){
   return [...array,element]
 }
+//Add element at end and alters the original array
 function destructivelyAddElementToEndOfArray(array,element){
   array.push(element)
   return array
