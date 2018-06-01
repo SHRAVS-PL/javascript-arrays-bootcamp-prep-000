@@ -39,6 +39,7 @@ function destructivelyRemoveElementFromEndOfArray (array) {
   array.pop()
   return array
 }
+//Removes the last element and doesnt alter the array
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length-1)
   
