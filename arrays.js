@@ -29,6 +29,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift()
   return array
 }
+//Removes the first element and doesnt alter the array
 function removeElementFromBeginningOfArray(array){
   return array.slice(1)
   
